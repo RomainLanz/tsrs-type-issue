@@ -1,0 +1,15 @@
+{
+  "name": "tsrs-type-issue",
+  "private": true,
+  "scripts": {
+    "check:tsc": "tsc -p .",
+    "check:tsgo": "tsgo -p .",
+    "check:tsrs": "tsrs -p .",
+    "check:all": "npm run check:tsc; npm run check:tsgo; npm run check:tsrs"
+  },
+  "devDependencies": {
+    "@typescript/native-preview": "7.0.0-dev.20260707.2",
+    "tsrs": "0.18.0-ts7.1.0-dev.20260929",
+    "typescript": "6.0.3"
+  }
+}
